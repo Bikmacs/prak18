@@ -1,0 +1,94 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/mvd"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/incomeEditText"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="56dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/dohod"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/expensesEditText"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <EditText
+        android:id="@+id/expensesEditText"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/rashod"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/incomeEditText"
+        app:layout_constraintTop_toTopOf="@+id/incomeEditText"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <EditText
+        android:id="@+id/taxRateEditText"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/nalogst"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/incomeEditText"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#FF5722"
+        android:text="@string/raschet"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taxRateEditText" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtresult"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <Button
+        android:id="@+id/neext"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:text="&gt;&gt;"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

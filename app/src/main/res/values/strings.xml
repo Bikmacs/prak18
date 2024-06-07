@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">nsak</string>
+    <string name="save">save</string>
+    <string name="load">load</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="nalogst">Налоговая ставка</string>
+    <string name="txtresult">Результат:</string>
+    <string name="raschet">Расчет налога</string>
+    <string name="next">след.</string>
+    <string name="dohod">Доход</string>
+    <string name="rashod">Расходы</string>
+    <string name="correct_toast">Правильно</string>
+    <string name="incorrect_toast">Не правильно</string>
+
+    <string name="question1">Налог на прибыль взимается с физических лиц?</string>
+    <string name="question2">Ставка НДС для продуктов питания, включенных в перечень, установленный Правительством Российской Федерации, составляет 10%?</string>
+    <string name="question3">Налог на имущество взимается с юридических лиц?</string>
+    <string name="question4">Транспортный налог взимается с владельцев недвижимости?</string>
+    <string name="question5">Максимальная ставка подоходного налога для физических лиц в Российской Федерации составляет 13%?</string>
+    <string name="question6">Налог на прибыль взимается с индивидуальных предпринимателей?</string>
+    <string name="question7">НДС взимается при экспорте товаров из Российской Федерации?</string>
+    <string name="question8">Налог на доходы физических лиц взимается с граждан, получающих пенсию по возрасту?</string>
+    <string name="question9">Минимальная ставка НДС в Российской Федерации составляет 5%?</string>
+    <string name="question10">Экологический налог взимается с компаний, занимающихся выращиванием сельскохозяйственных культур?</string>
+
+
+</resources>
